@@ -1,0 +1,46 @@
+.aboutSection, .aboutSection1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+.aboutSection {
+    border-bottom: .387rem solid #fff;
+    padding-bottom: 5rem;
+}
+.pageHeader {
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+.aboutImg {
+    width: 80%;
+    max-height: 30rem;
+    object-fit: cover;
+    object-position: center calc(50% + 15rem);
+    border: .4rem solid #fff;
+    border-radius: 2rem;    
+}
+.aboutBody {
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 1.6rem;
+    font-weight: 200;
+    margin-top: 3rem;
+}
+.workImgs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.workImg {
+    max-width: 20rem;
+    border: .4rem solid #fff;
+    border-radius: 2rem;
+}

@@ -1,0 +1,9 @@
+.artprints {
+    max-height: 65vh;
+    overflow: hidden;
+}
+.artImg {
+    width: 30rem;
+    height: auto;
+    margin-top: 5rem;
+}

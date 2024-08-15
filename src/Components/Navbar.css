@@ -1,0 +1,121 @@
+.hogNavbar {
+    background-color: black;
+    padding: 3.125rem;
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+}
+.hogNavbarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hogLogo {
+    width: clamp(1.5rem, 3rem, 4.5rem);
+    border-radius: 50%;
+}
+.hogNavbarToggle {
+    display: none;
+}
+.mobile {
+    display: flex;
+}
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.dropdown-toggle, .navLink {
+    color: #fff;
+    background-color: transparent !important;
+    border: 0rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.navLink.active, .activeDropdown {
+    color: #000 !important;
+    text-shadow:
+    1px 1px 0 #960001,  
+    -1px 1px 0 #960001,
+    1px -1px 0 #960001,
+    -1px -1px 0 #960001,
+    0 1px 0 #960001,
+    0 -1px 0 #960001,
+    1px 0 0 #960001,
+    -1px 0 0 #960001;
+}
+.menuHeader {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow:
+    1px 1px 0 #960001,  
+    -1px 1px 0 #960001,
+    1px -1px 0 #960001,
+    -1px -1px 0 #960001,
+    0 1px 0 #960001,
+    0 -1px 0 #960001,
+    1px 0 0 #960001,
+    -1px 0 0 #960001;
+    border-bottom: .0125rem solid #960001;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backBtn {
+    background-color: transparent;
+    border: 0px;
+    font-size: 1rem;
+}
+
+@media (max-width: 48rem) {
+    .hogNavbar {
+        padding: 1rem;
+    }
+    .mobile {
+      display: none !important;
+    }
+    .hogNavbarToggle {
+      display: flex !important;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 2rem;
+      color: #fff;
+    }
+    .navLinks {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        padding: 3rem;
+    }
+    .dropdown-toggle, .navLink, .btn:hover{
+        color: #000 ;
+        background-color: transparent !important;
+        border-top: .0125rem solid #960001;
+        border-bottom: .0125rem solid #960001;
+        border-radius: 0rem;
+        padding: 1rem;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .dropdown {
+        width: 100%;
+    }
+    .navLink.active, .activeDropdown {
+        color: #fff !important;
+    }
+}
