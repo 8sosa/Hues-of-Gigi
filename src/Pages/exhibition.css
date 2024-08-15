@@ -59,7 +59,7 @@
 .exhibitonItem {
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: fit-content !important;
     align-items: flex-start;
     color: #fff;
 }
