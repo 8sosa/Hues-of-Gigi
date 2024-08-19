@@ -90,4 +90,50 @@
         transform: translateX(-100%);
     }
 }
-  
+
+@media (max-width: 64rem) {
+    .heroTxt {
+        font-size: 2rem;
+    }
+    .heroBold {
+        font-size: 7rem;
+    }
+    .carImg {
+        width: 8rem;
+        height: 8rem;
+    }
+    .carcar::after, .carcar::before {
+        width: 10rem;
+    }
+}
+@media (max-width: 48rem) {
+    .heroTxt {
+        font-size: 2rem;
+    }
+    .heroBold {
+        font-size: 7rem;
+    }
+    .carImg {
+        width: 8rem;
+        height: 8rem;
+    }
+    .carcar::after, .carcar::before {
+        width: 10rem;
+    }
+}
+@media (max-width: 27rem) {
+    .heroTxt {
+        font-size: 1rem;
+    }
+    .heroBold {
+        font-size: 4rem;
+    }
+    .carImg {
+        width: 4rem;
+        height: 4rem;
+        margin: .4rem;
+    }
+    .carcar::after, .carcar::before {
+        width: 5rem;
+    }
+}

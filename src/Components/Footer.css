@@ -28,3 +28,8 @@
     color: #fff;
     text-decoration: none;
 }
+@media (max-width: 64rem) {
+    .topFooter, .bottomFooter {
+        font-size: clamp(.6rem, .8rem, 1rem);
+    }
+}

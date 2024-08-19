@@ -9,10 +9,10 @@ import { FaXTwitter, FaInstagram, FaBehance } from "react-icons/fa6";
 export default function Contact() {
   return (
     <>
-      <Container>
+      <Container className='contactContainer'>
         <h1 className='pageHeader altMont mb-5'>Contact me</h1>
         <Row className='contactSection'>
-          <Col>
+          <Col className='fitted'>
             <img src={Pic} alt='i am' className='workImg'/>
           </Col>
           <Col className='contactInfo'>

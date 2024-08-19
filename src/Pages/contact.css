@@ -21,8 +21,32 @@
     font-size: 2rem;
 }
 p {
-    margin: 0px;
+    margin: 0px !important;
 }
 .contactSection {
     margin-top: 5rem !important;
+}
+@media (max-width: 64rem) {
+    .contactInfo {
+    padding: 7rem !important;
+    }
+    .contactRow {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 48rem) {
+    .contactInfo {
+    padding: 4rem !important;
+    }
+}
+@media (max-width: 27rem) {
+    .contactInfo {
+        padding: 1.3rem !important;
+    }
+    .contactRow {
+        font-size: .8rem;
+    }
+    .contactContainer {
+        padding: 0rem 3rem !important;
+    }
 }

@@ -119,3 +119,8 @@
         color: #fff !important;
     }
 }
+@media (max-width: 64rem) {
+    .dropdown-toggle, .navLink {
+        font-size: clamp(.6rem, .8rem, 1rem);
+    }
+}

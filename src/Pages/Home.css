@@ -36,7 +36,7 @@
   margin-bottom: 5rem;
 }
 .contentBody {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-top: 5rem;
   max-width: 75%;
 }
@@ -48,4 +48,61 @@
   color: #fff;
   padding: 1rem 2rem;
   margin-top: 3rem;
+}
+.carouselContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10rem 0rem 15rem;
+}
+@media (max-width: 64rem) {
+  .carouselContainer {
+    margin: 5rem 0rem 10rem;
+  }
+  .contentBody {
+    margin-top: 1rem;
+    max-width: 100%;
+  }
+  .moreBtn {
+    font-size: 1.3rem;
+  }
+  .currentWork {
+    padding: 10rem 7rem;
+  }
+}
+@media (max-width: 48rem) {
+  .carouselContainer {
+    margin: 5rem 0rem 10rem;
+  }
+  .contentBody {
+    font-size: 1rem;
+    margin-top: 1rem;
+    max-width: 100%;
+  }
+  .moreBtn {
+    font-size: 1.3rem;
+  }
+  .currentWork {
+    padding: 5rem 5rem;
+  }
+}
+@media (max-width: 27rem) {
+  .carouselContainer {
+    margin: 3rem 0rem 5rem;
+  }
+  .contentBody {
+    font-size: .6rem;
+    margin-top: .6rem;
+    max-width: 100%;
+  }
+  .moreBtn {
+    font-size: 1rem;
+  }
+  .currentWork {
+    padding: 2.5rem;
+  }
+  .contentHeader {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
 }

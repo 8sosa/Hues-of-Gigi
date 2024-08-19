@@ -9,7 +9,7 @@ export default function Home() {
  
   return (
     <>
-      <Container className='d-flex flex-column align-items-center justify-content-center h80'>
+      <Container className='carouselContainer'>
         <InfiniteCarousel />
       </Container>
         <section className='currentWork'>

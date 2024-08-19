@@ -18,3 +18,38 @@
 .sliderImg:hover {
     max-width: 22.5rem;
 }
+@media (max-width: 64rem) {
+    .slider {
+        height: 22rem;
+    }
+    .sliderImg {
+        max-width: 15rem;
+    }
+    .sliderImg:hover {
+        max-width: 16.5rem;
+    }
+}
+@media (max-width: 48rem) {
+    .slider {
+        height: 20rem;
+    }
+    .sliderImg {
+        max-width: 14rem;
+    }
+    .sliderImg:hover {
+        max-width: 15.5rem;
+    }
+}
+@media (max-width: 27rem) {
+    .slider {
+        height: 15rem;
+        gap: 2rem;
+        margin: 2rem 0rem;
+    }
+    .sliderImg {
+        max-width: 10rem;
+    }
+    .sliderImg:hover {
+        max-width: 11.5rem;
+    }
+}

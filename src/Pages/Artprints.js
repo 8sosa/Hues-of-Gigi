@@ -7,9 +7,9 @@ export default function Artprints() {
   return (
     <>
       <Container className='artprints'>
-        {/* <h1 className='pageHeader altMont'>Artprints</h1> */}
+        <h1 className='pageHeader altMont'>Artprints</h1>
         <img src={Const} alt='art prints coming soon' className='artImg'/>
-        <h2 className='pageHeader altMont'>Coming Soon...</h2>
+        <h2 className='light pageHeader altMont'>Coming Soon...</h2>
       </Container>
       
     </>

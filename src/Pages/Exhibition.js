@@ -18,17 +18,17 @@ export default function Exhibition() {
         <Row className='eventTab'>
           <div className='exhibitonItem'>
             <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader mb-0'>Exhibition 1</h4>
+            <h4 className='eventHeader subHeader'>Exhibition 1</h4>
             <span className='eventBody'>19th November 2099</span>
           </div>
           <div className='exhibitonItem'>
             <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader mb-0'>Exhibition 2</h4>
+            <h4 className='eventHeader subHeader'>Exhibition 2</h4>
             <span className='eventBody'>19th November 2099</span>
           </div>
           <div className='exhibitonItem'>
             <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader mb-0'>Exhibition 3</h4>
+            <h4 className='eventHeader subHeader'>Exhibition 3</h4>
             <span className='eventBody'>19th November 2099</span>
           </div>
         </Row>    
@@ -41,12 +41,12 @@ export default function Exhibition() {
         <Row className='eventTab'>
           <div className='exhibitonItem'>
             <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader mb-0'>Exhibition 1</h4>
+            <h4 className='eventHeader subHeader'>Exhibition 1</h4>
             <span className='eventBody'>19th November 2099</span>
           </div>
           <div className='exhibitonItem'>
             <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader mb-0'>Exhibition 2</h4>
+            <h4 className='eventHeader subHeader'>Exhibition 2</h4>
             <span className='eventBody'>19th November 2099</span>
           </div>
         </Row>

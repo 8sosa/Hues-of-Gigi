@@ -1,9 +1,28 @@
-.artprints {
-    max-height: 65vh;
-    overflow: hidden;
-}
 .artImg {
     width: 30rem;
     height: auto;
     margin-top: 5rem;
+}
+.light {
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+@media (max-width: 64rem) {
+    .artImg {
+        width: 25rem;
+    }
+}
+@media (max-width: 48rem) {
+    .artImg {
+        width: 25rem;
+    }
+}
+@media (max-width: 27rem) {
+    .artImg {
+        width: 15rem;
+    }
+    .light {
+        margin-top: 3rem;
+        font-size: .8rem;
+    }
 }
