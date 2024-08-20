@@ -17,7 +17,7 @@ export default function Exhibition() {
                 <h1 className='exhibitionSubhead altMont m-0'>14th March 2024</h1>
             </div>
             <div>
-                
+
             </div>
             <div className='bottomSection'>
                 <div className='contentSection'>
