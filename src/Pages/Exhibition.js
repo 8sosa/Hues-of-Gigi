@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
-import './Exhibition.css';
+import './exhibition.css';
 import EventImg from '../Images/exhibition.jpeg';
 import { TiArrowBackOutline } from "react-icons/ti";
 
