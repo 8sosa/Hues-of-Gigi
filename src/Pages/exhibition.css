@@ -1,103 +1,19 @@
-.w100 {
-    width: 100%;
-}
-.exhibition {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
-    overflow: hidden;
-}
-.eventGroupHeaderTxt {
-    font-size: 1.5rem;
-    width: fit-content;
-    text-wrap: nowrap;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-.line {
-    border: 0;
-    height: 0.0625rem;
-    background: #fff;
-    width: 100%;
-    opacity: 1;
-}
-.eventGroupHeader {
+.topSection1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 3.125rem;
+    width: 100%;
     color: #fff;
+    padding: 2rem 0rem;
 }
-.exhibitionImg {
-    max-width: 25rem;
-    max-height: 300px;
-    object-fit: cover;
-    border-radius: 20px;
-    margin-bottom: 10px;
+.exhibitionSubhead {
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: capitalize;
 }
-.eventHeader {
-    border: 0px !important;
-    margin-bottom: 0px !important;
-    padding-left: 20px;
-}
-.eventBody {
-    font-size: clamp(10px, 12px, 15px);
-    font-weight: 400;
-    padding-left: 25px;
-    text-transform: uppercase;
-    align-self: flex-start;
-}
-.eventTab {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 1rem;
-}
-.exhibitonItem {
-    display: flex;
-    flex-direction: column;
-    width: fit-content !important;
-    align-items: flex-start;
-    color: #fff;
-}
-
-@media (width < 64rem) {
-    .eventsPage {
-        padding: 50px 20px;
-    }
-    .eventGroupHeaderTxt {
-        font-size: 1.125rem;
-    }
-    .exhibitionImg {
-        max-width: 20rem;
-    }
-}
-@media (width < 48rem) {
-    .eventsPage {
-        padding: 50px 20px;
-    }
-    .eventGroupHeaderTxt {
-        font-size: 1.125rem;
-    }
-}
-@media (width < 27rem) {
-    .eventsPage {
-        padding: 50px 20px;
-    }
-    .eventGroupHeaderTxt {
-        font-size: 1.125rem;
-    }
-    .eventTab {
-        justify-content: center;
-    }
-    .eventHeader {
-        margin-bottom: 0.2rem;
-    }
-    .eventBody, .eventHeader {
-        padding-left: 10px;
-    }
+.exhibitonDescription {
+    padding: 0rem 3rem;
+    font-size: 1.2rem;
+    text-align: justify;
 }

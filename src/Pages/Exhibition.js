@@ -1,57 +1,35 @@
 import React from 'react'
-import './exhibition.css'
+import { Container } from 'react-bootstrap';
+import './Exhibition.css';
 import EventImg from '../Images/exhibition.jpeg';
-
-import { Container, Row } from 'react-bootstrap';
-
+import { TiArrowBackOutline } from "react-icons/ti";
 
 export default function Exhibition() {
   return (
     <>
-      <Container className='exhibition altMont'>
-      <h1 className='pageHeader altMont'>Exhibitions</h1>
-      <div className='d-flex flex-column w100 mb-5' data-aos="fade-up" data-aos-anchor-placement="top-center">
-        <div className='eventGroupHeader'>
-          <h2 className='eventGroupHeaderTxt m-0'>Upcoming Exhibitions</h2>
-          <hr className='line'/>
-        </div>
-        <Row className='eventTab'>
-          <div className='exhibitonItem'>
-            <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader'>Exhibition 1</h4>
-            <span className='eventBody'>19th November 2099</span>
-          </div>
-          <div className='exhibitonItem'>
-            <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader'>Exhibition 2</h4>
-            <span className='eventBody'>19th November 2099</span>
-          </div>
-          <div className='exhibitonItem'>
-            <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader'>Exhibition 3</h4>
-            <span className='eventBody'>19th November 2099</span>
-          </div>
-        </Row>    
-      </div>
-      <div className='d-flex flex-column w100 mb-5' data-aos="fade-up" data-aos-anchor-placement="top-center">
-        <div className='eventGroupHeader'>
-          <h2 className='eventGroupHeaderTxt m-0'>Previous Exhibitions</h2>
-          <hr className='line'/>
-        </div>
-        <Row className='eventTab'>
-          <div className='exhibitonItem'>
-            <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader'>Exhibition 1</h4>
-            <span className='eventBody'>19th November 2099</span>
-          </div>
-          <div className='exhibitonItem'>
-            <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader'>Exhibition 2</h4>
-            <span className='eventBody'>19th November 2099</span>
-          </div>
-        </Row>
-      </div> 
-    </Container>
+        <Container className='pageType'>
+            <div className='topSection'>
+                <TiArrowBackOutline className='icon'/>
+                <h1 className='portfolioHead altMont m-0 align-self-center'>exhibition 1</h1>
+            </div>
+            <div className='topSection1'>
+                <h1 className='exhibitionSubhead altMont m-0'>some exhibition</h1>
+                <h1 className='exhibitionSubhead altMont m-0'>14th March 2024</h1>
+            </div>
+            <div>
+                
+            </div>
+            <div className='bottomSection'>
+                <div className='contentSection'>
+                    <img src={EventImg} alt='Exhibiton 1' className='projectImg' />
+                </div>
+                <div className='contentSection'>
+                    <p className='exhibitonDescription mont'>
+                        Sed faucibus interdum dolor, ac malesuada quam dignissim sit amet. Etiam interdum, velit in consectetur commodo, arcu enim efficitur magna, ut semper lectus lacus eget purus. Cras et leo id quam sodales dapibus eu in sem. Cras in elementum sapien. Duis molestie vehicula varius. Suspendisse congue sit amet mauris quis sodales. Fusce mattis a leo at sagittis. Nulla sagittis quam vel diam tempor ullamcorper. Ut aliquet ligula eget metus tincidunt, lobortis efficitur eros finibus. Integer augue ipsum, efficitur sed dignissim a, volutpat quis lectus. Maecenas quis laoreet elit, a interdum enim. Quisque accumsan maximus justo quis mollis. Proin pharetra vel massa at ornare. Donec vitae nisi eu sapien lacinia ultrices sit amet vel magna. Quisque molestie nisi non urna interdum, efficitur pulvinar erat congue. Nam eu pulvinar nunc, volutpat ultrices nisi.
+                    </p>
+                </div>
+            </div>
+        </Container>
     </>
   )
 }

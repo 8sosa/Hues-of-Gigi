@@ -13,7 +13,7 @@
     max-width: 22rem;
 }
 .portfolioImg:hover {
-    max-width: 22rem;
+    margin-top: -0.5rem;
 }
 .portfolioImg {
     max-width: 21rem;
@@ -24,6 +24,7 @@
     font-size: 1.3rem;
     text-align: start;
     max-width: 21rem;
+    text-transform: capitalize;
 }
 .portfolioBody {
     color: #c5c5c5;

@@ -1,0 +1,51 @@
+.pageType {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2rem;
+    color: #fff;
+    margin: 2rem;
+}
+.bottomSection {
+    display: flex;
+    flex-direction: row;
+}
+.icon {
+    font-size: 1.5rem;
+    align-self: flex-start;
+}
+.contentSection {
+    max-width: 50%;
+    color: #fff;
+}
+.projectImg {
+    max-width: 100%;
+}
+.projectDescription {
+    font-size: 1.5rem;
+    padding: 5rem;
+    text-align: justify;
+}
+@media (width <= 48rem) {
+    .bottomSection {
+        flex-direction: column;
+    }
+    .contentSection{
+        max-width: 100%;
+    }
+}
+@media (width < 27rem) {
+    .projectImg {
+        margin-bottom: 3rem;
+    }
+    .projectDescription {
+        padding: 2rem;
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+}

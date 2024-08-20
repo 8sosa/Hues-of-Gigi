@@ -30,8 +30,8 @@ export default function NavBar() {
       <>
           <div className='navLinks altMont'>
               <div className="menuHeader">Nfts</div>
-              <Nav.Link as={NavLink} to="https://foundation.app" className="navLink justify-content-center" aria-label="Foundation">Foundation</Nav.Link>
-              <Nav.Link as={NavLink} to="https://www.manifold.xyz" className="navLink justify-content-center" aria-label="Manifold">Manifold</Nav.Link>
+              <Nav.Link as={NavLink} to="https://foundation.app" className="navLink justify-content-center" onClick={handleClose} aria-label="Foundation">Foundation</Nav.Link>
+              <Nav.Link as={NavLink} to="https://www.manifold.xyz" className="navLink justify-content-center" onClick={handleClose} aria-label="Manifold">Manifold</Nav.Link>
           </div>
       </>
     );
@@ -45,13 +45,13 @@ export default function NavBar() {
       default:
         return (
           <div className='navLinks altMont'>
-            <Nav.Link as={NavLink} to="/" className="navLink" aria-label="Home">Home</Nav.Link>
-            <Nav.Link as={NavLink} to="/about-us" className="navLink" aria-label="About Us">About</Nav.Link>
-            <Nav.Link as={NavLink} to="/Portfolio" className="navLink" aria-label="Portfolio">Portfolio</Nav.Link>
-            <Nav.Link as={NavLink} to="/exhibitions" className="navLink" aria-label="Exhibitions">Exhibitions</Nav.Link>
-            <Nav.Link as={NavLink} to="/art-prints" className="navLink" aria-label="Art Prints">Art Prints</Nav.Link>
+            <Nav.Link as={NavLink} to="/" className="navLink" onClick={handleClose} aria-label="Home">Home</Nav.Link>
+            <Nav.Link as={NavLink} to="/about-us" className="navLink" onClick={handleClose} aria-label="About Us">About</Nav.Link>
+            <Nav.Link as={NavLink} to="/Portfolio" className="navLink" onClick={handleClose} aria-label="Portfolio">Portfolio</Nav.Link>
+            <Nav.Link as={NavLink} to="/exhibitions" className="navLink" onClick={handleClose} aria-label="Exhibitions">Exhibitions</Nav.Link>
+            <Nav.Link as={NavLink} to="/art-prints" className="navLink" onClick={handleClose} aria-label="Art Prints">Art Prints</Nav.Link>
             <Nav.Link onClick={handleNftsClick} className="navLink" aria-label="Nfts">Nfts</Nav.Link>
-            <Nav.Link as={NavLink} to="/contact" className="navLink" aria-label="contact me">Contact Me</Nav.Link>
+            <Nav.Link as={NavLink} to="/contact" className="navLink" onClick={handleClose} aria-label="contact me">Contact Me</Nav.Link>
           </div>
         );
     }
