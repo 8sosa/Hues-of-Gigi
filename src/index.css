@@ -8,7 +8,10 @@
   font-family: "Montserrat", sans-serif;
   font-style: normal;
 }
-
+a {
+  text-decoration: none !important;
+  max-width: fit-content !important;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

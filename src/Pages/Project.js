@@ -1,15 +1,18 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import { Container } from 'react-bootstrap';
 import './Project.css';
 import Pic1 from '../Images/IMG_4616.JPG';
 import { TiArrowBackOutline } from "react-icons/ti";
 
 export default function Project() {
+    const navigate = useNavigate();
+
   return (
     <>
         <Container className='pageType'>
             <div className='topSection'>
-                <TiArrowBackOutline className='icon'/>
+                <TiArrowBackOutline className='icon' onClick={() => navigate(-1)}/>
                 <h1 className='portfolioHead altMont m-0 align-self-center'>Ebo Okan ( Soul Sacrifice)</h1>
             </div>
             <div className='bottomSection'>

@@ -16,21 +16,27 @@ export default function Exhibitions() {
           <hr className='line'/>
         </div>
         <Row className='eventTab'>
-          <div className='exhibitonItem'>
-            <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader'>Exhibition 1</h4>
-            <span className='eventBody'>19th November 2099</span>
-          </div>
-          <div className='exhibitonItem'>
-            <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader'>Exhibition 2</h4>
-            <span className='eventBody'>19th November 2099</span>
-          </div>
-          <div className='exhibitonItem'>
-            <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader'>Exhibition 3</h4>
-            <span className='eventBody'>19th November 2099</span>
-          </div>
+          <a href='/exhibition'>
+            <div className='exhibitonItem'>
+              <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
+              <h4 className='eventHeader subHeader'>Exhibition 1</h4>
+              <span className='eventBody'>19th November 2099</span>
+            </div>
+          </a>
+          <a href='/exhibition'>
+            <div className='exhibitonItem'>
+              <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
+              <h4 className='eventHeader subHeader'>Exhibition 2</h4>
+              <span className='eventBody'>19th November 2099</span>
+            </div>
+          </a>
+          <a href='/exhibition'>
+            <div className='exhibitonItem'>
+              <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
+              <h4 className='eventHeader subHeader'>Exhibition 3</h4>
+              <span className='eventBody'>19th November 2099</span>
+            </div>
+          </a>
         </Row>    
       </div>
       <div className='d-flex flex-column w100 mb-5' data-aos="fade-up" data-aos-anchor-placement="top-center">
@@ -39,16 +45,20 @@ export default function Exhibitions() {
           <hr className='line'/>
         </div>
         <Row className='eventTab'>
-          <div className='exhibitonItem'>
-            <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader'>Exhibition 1</h4>
-            <span className='eventBody'>19th November 2099</span>
-          </div>
-          <div className='exhibitonItem'>
-            <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
-            <h4 className='eventHeader subHeader'>Exhibition 2</h4>
-            <span className='eventBody'>19th November 2099</span>
-          </div>
+          <a href='/exhibition'>
+            <div className='exhibitonItem'>
+              <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
+              <h4 className='eventHeader subHeader'>Exhibition 1</h4>
+              <span className='eventBody'>19th November 2099</span>
+            </div>
+          </a>
+          <a href='/exhibition'>
+            <div className='exhibitonItem'>
+              <img src={EventImg} alt='Child getting blood pressure checked' className='exhibitionImg' />
+              <h4 className='eventHeader subHeader'>Exhibition 2</h4>
+              <span className='eventBody'>19th November 2099</span>
+            </div>
+          </a>
         </Row>
       </div> 
     </Container>

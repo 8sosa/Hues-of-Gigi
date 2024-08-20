@@ -17,3 +17,69 @@
     font-size: 1.2rem;
     text-align: justify;
 }
+.portfolioItem1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .8rem;
+    max-width: 22rem;
+}
+.portfolio1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.portfolioImg1 {
+    max-width: 100%;
+    height: auto;
+}
+.portfolioHead1 {
+    color: #fff;
+    font-size: 1rem;
+    text-align: start;
+    max-width: 21rem;
+    text-transform: capitalize;
+}
+@media (width < 64.001rem) {
+    .exhibitonDescription {
+        padding: 0rem 1rem;
+        font-size: 1rem;
+    }
+    .portfolio1 {
+        gap: 1rem;
+    }
+    .portfolioItem1 {
+        max-width: 31% !important;
+    }
+    .portfolioImg1 {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media (width < 48.001rem) {
+    .exhibitonDescription {
+        padding: 0rem 1rem;
+        font-size: 1rem;
+    }
+    .portfolio1 {
+        gap: 1rem;
+    }
+    .portfolioItem1 {
+        max-width: 48% !important;
+    }
+    .portfolioImg1 {
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media (width < 27rem) {
+    .exhibitonDescription {
+        padding: 0rem 1rem;
+        font-size: 1rem;
+    }
+    .portfolioItem1 {
+        max-width: 100% !important;
+    }
+}

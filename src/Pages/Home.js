@@ -19,7 +19,7 @@ export default function Home() {
             <p className='contentBody mont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor lacinia neque at maximus. Phasellus iaculis dolor quis metus ornare vestibulum. Donec a est sit amet odio facilisis ultricies et ac magna. Proin mauris augue, lobortis ut justo ut, porta lobortis sem. Vivamus et lectus vitae dui posuere convallis. Nulla sit amet elit fermentum, fringilla augue a, feugiat velit. Etiam finibus eu massa nec dignissim.</p>
             <p className='contentBody mont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor lacinia neque at maximus. Phasellus iaculis dolor quis metus ornare vestibulum. Donec a est sit amet odio facilisis ultricies et ac magna. Proin mauris augue, lobortis ut justo ut, porta lobortis sem. Vivamus et lectus vitae dui posuere convallis. Nulla sit amet elit fermentum, fringilla augue a, feugiat velit. Etiam finibus eu massa nec dignissim.</p>
             <Slider />
-            <button className='moreBtn mont'>View More</button>
+            <a href="/project"><button className='moreBtn mont'>View More</button></a>
           </div>
         </section>
       <Container>
