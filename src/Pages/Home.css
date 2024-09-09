@@ -1,4 +1,4 @@
-.currentWork {
+/* .currentWork {
   background-image: url('../Images/IMG_4616.JPG');
   background-size: cover;
   background-position: center;
@@ -39,7 +39,7 @@
   font-size: 1.4rem;
   margin-top: 5rem;
   max-width: 75%;
-}
+} */
 .moreBtn {
   border: .0625rem solid #fff;
   border-radius: .625rem;
@@ -55,9 +55,35 @@
   align-items: center;
   margin: 10rem 0rem 15rem;
 }
+.homeImgRow {
+  max-width: 100%;
+  padding: 0rem 2rem;
+}
+.homeImgCol {
+  margin: 1rem;
+}
+.homeImg {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+.homeQuote {
+  margin: 5rem !important;
+  font-size: 2rem;
+  color: #fff;
+  width: 40rem;
+}
 @media (max-width: 64rem) {
   .carouselContainer {
     margin: 5rem 0rem 10rem;
+  }
+  .homeImgCol {
+    margin: .2rem;
+  }
+  .homeImg {
+    border-radius: .8rem;
+  }
+  .homeQuote {
+    font-size: 1.7rem;
   }
   .contentBody {
     margin-top: 1rem;
@@ -74,6 +100,17 @@
   .carouselContainer {
     margin: 5rem 0rem 10rem;
   }
+  .homeImgCol {
+    margin: .2rem;
+    padding: .2rem !important;
+  }
+  .homeImg {
+    border-radius: .4rem;
+  }
+  .homeQuote {
+    font-size: 1.2rem;
+    width: 20rem;
+  }
   .contentBody {
     font-size: 1rem;
     margin-top: 1rem;
@@ -89,6 +126,22 @@
 @media (max-width: 27rem) {
   .carouselContainer {
     margin: 3rem 0rem 5rem;
+  }
+  .homeImgRow {
+    flex-direction: column !important;
+    padding: 0rem;
+  }
+  .homeImgCol {
+    margin: 0rem;
+    padding: 1rem !important;
+    width: 100%;
+  }
+  .homeImg {
+    border-radius: .4rem;
+  }
+  .homeQuote {
+    font-size: 1.2rem;
+    width: 20rem;
   }
   .contentBody {
     font-size: .6rem;
